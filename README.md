@@ -10,6 +10,6 @@ npm install
 
 ### How to run
 
-```
+```console
 npm run dev
 ```
