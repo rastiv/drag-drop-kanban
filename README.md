@@ -1,8 +1,15 @@
-# React + Vite
+# Drag & Drop Kanban board
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This WEB application demonstrates how to create a simple kanban board using React, Tailwindand and Framer motion.
 
-Currently, two official plugins are available:
+### How to install
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+```console
+npm install
+```
+
+### How to run
+
+```
+npm run dev
+```
