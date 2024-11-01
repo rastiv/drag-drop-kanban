@@ -55,13 +55,15 @@ const AddCard = ({ column }) => {
           </div>
         </motion.form>
       ) : (
-        <motion.button
-          onClick={() => setAdding(true)}
-          className="flex w-full items-center gap-1.5 px-3 py-1.5 text-xs text-neutral-400 transition-colors hover:text-neutral-50"
-        >
-          <span>ADD CARD</span>
-          <FiPlus />
-        </motion.button>
+        <motion.div layout>
+          <button
+            onClick={() => setAdding(true)}
+            className="flex w-full items-center gap-1.5 px-3 py-1.5 text-xs text-neutral-400 transition-colors hover:text-neutral-50"
+          >
+            <span>ADD CARD</span>
+            <FiPlus />
+          </button>
+        </motion.div>
       )}
     </>
   );
